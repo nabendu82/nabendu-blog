@@ -5,7 +5,7 @@ excerpt: ''
 thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--GoB0LVT6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--ls2S1yaZ--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/1x1bdusgdyaptdl3v6jv.jpeg
 comments_count: 0
-positive_reactions_count: 20
+positive_reactions_count: 21
 tags: []
 canonical_url: >-
   https://medium.com/@nabendu82/interview-preparation-basic-javascript-3-4ddf05b94f2

@@ -4,6 +4,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-sitemap`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -27,7 +28,7 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
         {
@@ -36,6 +37,14 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
                 menus: require('./src/data/menus.json'),
+            }
+        },
+        {
+            resolve: `gatsby-plugin-robots-txt`,
+            options: {
+                host: 'https://nabendu.blog/',
+                sitemap: 'https://nabendu.blog/sitemap.xml',
+                policy: [{ userAgent: '*', allow: '/' }]
             }
         }
     ]

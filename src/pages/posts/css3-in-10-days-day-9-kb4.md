@@ -5,7 +5,7 @@ excerpt: ''
 thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--ZnC8Z_LG--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--AvOFXn1M--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/gc2mztih82za4n6ehbrw.jpeg
 comments_count: 0
-positive_reactions_count: 42
+positive_reactions_count: 44
 tags: []
 canonical_url: 'https://medium.com/@nabendu82/css3-in-10-days-day-9-382419364a28'
 template: post

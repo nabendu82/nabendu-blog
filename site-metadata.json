@@ -19,5 +19,20 @@
             }
         ]
     },
-    "title": "Stackbit Fresh Theme"
+    "title": "Nabendu's Blog",
+    "author": "Nabendu Biswas",
+    "siteUrl": "https://nabendu.blog/",
+    "description": "Blog posts started by Nabendu Biswas to share stuff i learn in my Web development journey",
+    "keywords": [
+        "Nabendu",
+        "Biswas",
+        "UI Lead",
+        "GatsbyJs",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJs",
+        "React developer",
+        "Front-end Engineer"
+    ]
 }
