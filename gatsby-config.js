@@ -46,6 +46,12 @@ module.exports = {
                 sitemap: 'https://nabendu.blog/sitemap.xml',
                 policy: [{ userAgent: '*', allow: '/' }]
             }
+        },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-152725098-1",
+            }
         }
     ]
 };
