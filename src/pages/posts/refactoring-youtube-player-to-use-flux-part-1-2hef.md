@@ -7,8 +7,7 @@ thumb_img_path: >-
 comments_count: 0
 positive_reactions_count: 5
 tags: []
-canonical_url: >-
-  https://medium.com/@nabendu82/refactoring-youtube-player-to-use-flux-part-1-75871eb1561a
+canonical_url: 'https://nabendu.blog/posts/refactoring-youtube-player-to-use-flux-part-1-2hef/'
 template: post
 ---
 I have written a three part series to create a youtube player. It used only React and heavily depends on callbacks from children to parent and in one case two level deep. 

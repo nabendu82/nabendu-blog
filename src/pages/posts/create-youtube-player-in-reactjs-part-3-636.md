@@ -7,8 +7,7 @@ thumb_img_path: >-
 comments_count: 3
 positive_reactions_count: 9
 tags: []
-canonical_url: >-
-  https://medium.com/@nabendu82/create-youtube-player-in-reactjs-part-3-9606a7b5e010
+canonical_url: 'https://nabendu.blog/posts/create-youtube-player-in-reactjs-part-3-636/'
 template: post
 ---
 

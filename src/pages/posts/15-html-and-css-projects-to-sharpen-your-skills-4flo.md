@@ -5,7 +5,7 @@ excerpt: ''
 thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s---ZHmTNN---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--LIQOvOT8--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/jcgrwwh0cliv2s90qtro.jpeg
 comments_count: 7
-positive_reactions_count: 330
+positive_reactions_count: 332
 tags: []
 canonical_url: >-
   https://medium.com/@nabendu82/15-html-and-css-projects-to-sharpen-your-skills-33ea418c2f5e

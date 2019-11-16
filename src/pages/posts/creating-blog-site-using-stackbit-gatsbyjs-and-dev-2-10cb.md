@@ -5,15 +5,15 @@ excerpt: ''
 thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--rmd01RTm--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--UXOStqVX--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/97d64fo0xofpttd4e9af.jpeg
 comments_count: 0
-positive_reactions_count: 1
+positive_reactions_count: 33
 tags: []
 canonical_url: >-
-  https://medium.com/@nabendu82/creating-blog-site-using-stackbit-gatsbyjs-and-dev-2-1947a6faeb89
+  https://nabendu.blog/posts/creating-blog-site-using-stackbit-gatsbyjs-and-dev-2-10cb/
 template: post
 ---
 Welcome to part 2 of the series and my **100th blog** :)
 
-After completing my blogging site in part-1, it’s time to buy and domain name and add the details in netlify.
+After completing my blogging site in [part-1](https://nabendu.blog/posts/creating-blog-site-using-slackbit-gatsbyjs-and-dev-1-55f0/), it’s time to buy and domain name and add the details in netlify.
 
 For adding a custom domain, i generally follow steps from this awesome [Brad Traversy](https://twitter.com/traversymedia) [video](https://www.youtube.com/watch?v=bjVUqvcCnxM&list=PLuOLMA-n-nN9TOxtU11gNLaMZBXxCtvWD&index=19&t=1000s).
 
@@ -131,7 +131,7 @@ Finally by blog site is live.
 
 Now, this blog i getting long so ending it here. Still some work is remaining but all of it is backend work, which will help me with SEO, analytics, canonical links.
 
-See you soon in the final part :)
+You can find final part [here](https://nabendu.blog/posts/creating-blog-site-using-stackbit-gatsbyjs-and-dev-3-4n31/)
 
 
 *[This post is also available on DEV.](https://dev.to/nabendu82/creating-blog-site-using-stackbit-gatsbyjs-and-dev-2-10cb)*
@@ -147,4 +147,4 @@ script.onload = function() {
     window.iFrameResize({}, '.liquidTag');
 };
 parent.appendChild(script);
-</script>    
+</script>

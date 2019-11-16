@@ -8,7 +8,7 @@ comments_count: 0
 positive_reactions_count: 4
 tags: []
 canonical_url: >-
-  https://medium.com/@nabendu82/refactoring-reactjs-youtube-player-to-show-selected-video-ae92d29a89fd
+  https://nabendu.blog/posts/refactoring-reactjs-youtube-player-to-show-selected-video-43bk/
 template: post
 ---
 

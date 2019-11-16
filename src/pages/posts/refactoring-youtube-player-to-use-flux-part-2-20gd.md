@@ -7,8 +7,7 @@ thumb_img_path: >-
 comments_count: 0
 positive_reactions_count: 3
 tags: []
-canonical_url: >-
-  https://medium.com/@nabendu82/refactoring-youtube-player-to-use-flux-part-2-b40799141659
+canonical_url: 'https://nabendu.blog/posts/refactoring-youtube-player-to-use-flux-part-2-20gd/'
 template: post
 ---
 

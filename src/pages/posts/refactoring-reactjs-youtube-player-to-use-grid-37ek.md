@@ -8,7 +8,7 @@ comments_count: 0
 positive_reactions_count: 4
 tags: []
 canonical_url: >-
-  https://medium.com/@nabendu82/refactoring-reactjs-youtube-player-to-use-grid-bcb9339334a2
+  https://nabendu.blog/posts/refactoring-reactjs-youtube-player-to-use-grid-37ek/
 template: post
 ---
 

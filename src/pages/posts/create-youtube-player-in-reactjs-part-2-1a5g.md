@@ -7,8 +7,7 @@ thumb_img_path: >-
 comments_count: 0
 positive_reactions_count: 4
 tags: []
-canonical_url: >-
-  https://medium.com/@nabendu82/create-youtube-player-in-reactjs-part-2-a5f91d4fe61d
+canonical_url: 'https://nabendu.blog/posts/create-youtube-player-in-reactjs-part-2-1a5g/'
 template: post
 ---
 Welcome to part 2. Let’s start from where we left, but first add bootstrap to our project so that it looks a bit ok.

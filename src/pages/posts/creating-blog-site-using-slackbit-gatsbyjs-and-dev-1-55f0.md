@@ -5,10 +5,10 @@ excerpt: ''
 thumb_img_path: >-
   https://res.cloudinary.com/practicaldev/image/fetch/s--0TNAUMZs--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--9xZdYA-y--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://thepracticaldev.s3.amazonaws.com/i/06jpncnwyu02rnq5vnbg.jpeg
 comments_count: 10
-positive_reactions_count: 82
+positive_reactions_count: 96
 tags: []
 canonical_url: >-
-  https://medium.com/@nabendu82/creating-blog-site-using-slackbit-gatsbyjs-and-dev-1-c387a3129dea
+  https://nabendu.blog/posts/creating-blog-site-using-slackbit-gatsbyjs-and-dev-1-55f0/
 template: post
 ---
 I started my blogging journey 1.5 years back on medium and had written 98 blogs till date. It had soon become an habit to write technical articles.
@@ -99,6 +99,7 @@ And after sometime the changes are pushed to production.
 
 This completes first part of the post. In the next part(and my 100th blog), i will be buying a good domain name and connecting in netlify, adding some plugins from gatsby like SEO, google analytics.
 
+You can find Part 2 [here](https://nabendu.blog/posts/creating-blog-site-using-stackbit-gatsbyjs-and-dev-2-10cb/)
 
 *[This post is also available on DEV.](https://dev.to/nabendu82/creating-blog-site-using-slackbit-gatsbyjs-and-dev-1-55f0)*
 
@@ -113,4 +114,4 @@ script.onload = function() {
     window.iFrameResize({}, '.liquidTag');
 };
 parent.appendChild(script);
-</script>    
+</script>
