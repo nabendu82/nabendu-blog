@@ -3,6 +3,7 @@ import _ from 'lodash';
 import moment from 'moment-strftime';
 
 import {Layout} from '../components/index';
+import Subscribe from '../components/subscribe';
 import {htmlToReact, safePrefix} from '../utils';
 import { Disqus, CommentCount } from "gatsby-plugin-disqus";
 
@@ -42,6 +43,7 @@ export default class Post extends React.Component {
                     dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%A, %B %e, %Y')}</time>
                 </footer>
               </article>
+              <Subscribe />
               <Disqus config={disqusConfig} />
             </Layout>
         );
