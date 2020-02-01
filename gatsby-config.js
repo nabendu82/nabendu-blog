@@ -52,6 +52,12 @@ module.exports = {
             options: {
                 trackingId: "UA-152725098-1",
             }
+        },
+        {
+            resolve: `gatsby-plugin-disqus`,
+            options: {
+                shortname: `https-nabendu-blog`
+            }
         }
     ]
 };
