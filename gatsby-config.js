@@ -65,6 +65,18 @@ module.exports = {
             options: {
                 endpoint: "https://blog.us4.list-manage.com/subscribe/post?u=5c156d7649897240e9c994d38&amp;id=67f40851e0",
             },
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Nabendu Biswas`,
+                short_name: `Nabendu`,
+                start_url: `/`,
+                background_color: `#ffffff`,
+                theme_color: `#4ABCF8`,
+                display: `standalone`,
+                icon: `src/images/icon.png`,
+            },
         }
     ]
 };
