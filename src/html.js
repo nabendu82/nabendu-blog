@@ -12,7 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script
                   dangerouslySetInnerHTML={{
                     __html: `
@@ -22,7 +22,9 @@ export default function HTML(props) {
                     });
                     `,
                   }}
-        />
+        /> */}
+        <script type="text/javascript"> var infolinks_pid = 3233958; var infolinks_wsid = 0; </script>
+        <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
