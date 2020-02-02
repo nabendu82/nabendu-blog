@@ -37,6 +37,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script data-cfasync='false' type='text/javascript' src='//p383402.clksite.com/adServe/banners?tid=383402_752568_0'></script>
       </body>
     </html>
   )
