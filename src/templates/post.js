@@ -43,7 +43,7 @@ export default class Post extends React.Component {
                     dateTime={moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(this.props, 'pageContext.frontmatter.date')).strftime('%A, %B %e, %Y')}</time>
                 </footer>
               </article>
-              <Subscribe />
+              <Subscribe heading={true} />
               <Disqus config={disqusConfig} />
             </Layout>
         );

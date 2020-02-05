@@ -1,7 +1,7 @@
 .EmailListForm {
     display: flex;
     flex-direction: column;
-    background: #f2f2f2;
+    background: transparent;
     color: #2a2a2a;
     font-family: -apple-system, Helvetica, Arial, sans-serif;
     padding: 2rem;
@@ -32,9 +32,10 @@
         background-image: none;
         background-color: #DD0505 !important;
         color: white;
-        border-radius: 0;
+        border-radius: 5px;
         letter-spacing: 1px;
         transition: all 0.1s linear;
+        margin-top:1%;
 
         &:hover {
             cursor: pointer;

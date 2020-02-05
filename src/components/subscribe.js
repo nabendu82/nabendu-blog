@@ -45,7 +45,7 @@ class Subscribe extends Component  {
         let btnCTA = subscribing ? "Subscribing" : "Subscribe";
         return (
             <form onSubmit={this.handleSubmit} className={styles.EmailListForm}>
-                <h2>Subscribe to receive updates on new posts!</h2>
+                {this.props.heading && <h2>Subscribe to receive updates on new posts!</h2>}
                 <div className={styles.Wrapper}>
                     <input
                         placeholder="Email address"
