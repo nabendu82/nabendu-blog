@@ -7,7 +7,7 @@
 const React = require("react");
 const safePrefix = require("./src/utils/safePrefix").default;
 
-exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
+exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setPreBodyComponents }) {
 
     setHeadComponents([
         <script
