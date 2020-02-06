@@ -23,13 +23,13 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
     ]);
 
     setPreBodyComponents([
-        <div id="798827885">
+        <div id="515004459">
             <script
                     dangerouslySetInnerHTML={{
                         __html:`
                         try {
                             window._mNHandle.queue.push(function (){
-                                window._mNDetails.loadTag("798827885", "728x90", "798827885");
+                                window._mNDetails.loadTag("515004459", "300x250", "515004459");
                             });
                         }
                         catch (error) {}
