@@ -7,7 +7,7 @@
 const React = require("react");
 const safePrefix = require("./src/utils/safePrefix").default;
 
-exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
+exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setPreBodyComponents }) {
 
     setHeadComponents([
         <script
@@ -20,6 +20,23 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
         }}
     />,
     <script src="//contextual.media.net/dmedianet.js?cid=8CUVUWCU4" async="async" />
+    ]);
+
+    setPreBodyComponents([
+            <div style={{textAlign: 'center'}} id="356636763">
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html:`
+                        try {
+                            window._mNHandle.queue.push(function (){
+                                window._mNDetails.loadTag("356636763", "728x90", "356636763");
+                            });
+                        }
+                        catch (error) {}
+                        `
+                    }}
+                />
+            </div>
     ]);
 
     setPostBodyComponents([
