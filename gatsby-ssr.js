@@ -26,13 +26,13 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
         <React.Fragment>
             <script src={safePrefix('assets/js/plugins.js')}/>
             <script src={safePrefix('assets/js/main.js')}/>
-            <div style={{textAlign: 'center'}} id="322374539">
+            <div style={{textAlign: 'center'}} id="356636763">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
                         try {
                             window._mNHandle.queue.push(function (){
-                                window._mNDetails.loadTag("322374539", "160x600", "322374539");
+                                window._mNDetails.loadTag("356636763", "728x90", "356636763");
                             });
                         }
                         catch (error) {}
