@@ -26,7 +26,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
         <React.Fragment>
             <script src={safePrefix('assets/js/plugins.js')}/>
             <script src={safePrefix('assets/js/main.js')}/>
-            <div id="418163768">
+            <div style={{textAlign: 'center'}} id="418163768">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
