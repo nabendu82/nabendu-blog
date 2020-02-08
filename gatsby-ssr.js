@@ -23,7 +23,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setP
     ]);
 
     setPreBodyComponents([
-            <div style={{display: 'flex', alignItem: 'center', justifyContent: 'center'}} id="356636763">
+            <div style={{textAlign: 'center'}} id="356636763">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
@@ -43,13 +43,13 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setP
         <React.Fragment>
             <script src={safePrefix('assets/js/plugins.js')}/>
             <script src={safePrefix('assets/js/main.js')}/>
-            <div className="leaderAds" style={{display: 'flex', alignItem: 'center', justifyContent: 'center', marginLeft: '9%'}} id="760142725">
+            <div style={{display: 'flex', alignItem: 'center', justifyContent: 'center', marginLeft: '9%'}} id="104240845">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
                         try {
                             window._mNHandle.queue.push(function (){
-                                window._mNDetails.loadTag("760142725", "970x90", "760142725");
+                                window._mNDetails.loadTag("104240845", "300x250", "104240845");
                             });
                         }
                         catch (error) {}
