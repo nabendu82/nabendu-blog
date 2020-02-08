@@ -43,7 +43,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setP
         <React.Fragment>
             <script src={safePrefix('assets/js/plugins.js')}/>
             <script src={safePrefix('assets/js/main.js')}/>
-            <div style={{display: 'flex', alignItem: 'center', justifyContent: 'center', marginLeft: '7%'}} id="760142725">
+            <div className="leaderAds" style={{display: 'flex', alignItem: 'center', justifyContent: 'center', marginLeft: '9%'}} id="760142725">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
