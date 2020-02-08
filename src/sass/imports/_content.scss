@@ -157,6 +157,15 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  #wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+}
+
 @media only screen and (min-width: 801px) and (max-width: 1000px), only screen and (max-width: 600px) {
 .post-feed .post {
     -webkit-flex: 0 0 100%;
