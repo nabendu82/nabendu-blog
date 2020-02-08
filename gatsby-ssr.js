@@ -23,7 +23,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setP
     ]);
 
     setPreBodyComponents([
-            <div style={{textAlign: 'center'}} id="356636763">
+            <div style={{maxWidth: '54vw', margin: '0 auto'}} id="356636763">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
