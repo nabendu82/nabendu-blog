@@ -10,8 +10,11 @@ html {
 
   @media only screen and (max-width: 600px) {
     font-size: 100%;
-    .leaderAds{
-      display: none
+    #wrapper ul{
+      display: flex;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
     }
   }
 }
