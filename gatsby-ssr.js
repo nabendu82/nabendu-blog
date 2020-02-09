@@ -43,7 +43,7 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents, setP
         <React.Fragment>
             <script src={safePrefix('assets/js/plugins.js')}/>
             <script src={safePrefix('assets/js/main.js')}/>
-            <div style={{display: 'flex', alignItem: 'center', justifyContent: 'center', marginLeft: '9%'}} id="104240845">
+            <div style={{maxWidth: '54vw', margin: '0 auto'}} id="104240845">
                 <script
                     dangerouslySetInnerHTML={{
                         __html:`
