@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 import {Link} from '../utils';
 import Subscribe from './subscribe';
+import Advert from './Advert';
 
 export default class Social extends React.Component {
     render() {
@@ -14,6 +15,7 @@ export default class Social extends React.Component {
               <Link key={link_idx} to={_.get(link, 'url')} target="_blank" rel="noopener"><span className={'fab ' + _.get(link, 'icon')} aria-hidden="true"/><span className="screen-reader-text">{_.get(link, 'title')}</span></Link>
               ))}
             </div>
+            <Advert />
             <Subscribe heading={false} />
             </>
         );
